@@ -1,0 +1,9 @@
+$red:#f00;
+.border_red                  {border:1px solid $red;}
+.container                   {display: flex; display:-webkit-box;display: -webkit-flex; display:-moz-box; display: -ms-flexbox; flex-flow:row nowrap; justify-content: space-between; align-content: flex-start; align-items: flex-start;}
+.col                         {padding:0.4em 1.3em;}
+.color-dark                  {background-color: #999;}
+.color-light                 {background-color: #666;}
+input.txt                    {border:0px;padding:1em;width:80%;margin-bottom: 2em;}
+input.btn                    {border:0px;display: block; font-weight: bold;padding:1em 3em; background-color: rgb(69, 158, 88);color:#fff;margin-bottom: 1em;cursor:pointer;}
+.life-container              {color:#1e1e1e;background-color:rgb(241, 240, 158); padding: .5em; font-weight: bold; cursor: pointer;}
